@@ -34,6 +34,10 @@ The local computing environment should already have a recent version of node and
 
 ## Tests
 
+    ### Video Demonstration of running the tests and passing
+    
+        https://watch.screencastify.com/v/j52FrS2Ui1qoS1PqLlCW
+
 ## Questions
 
 If you have any further questions feel free to contact me Phillip MacDonald. My email address is pmacdonald2015@yahoo.com, my github profile is https://github.com/pmacdonald15. The repo link is https://github.com/pmacdonald15/team-profile-generator.
