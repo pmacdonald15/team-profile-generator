@@ -1,0 +1,82 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(0, 255, 115), rgb(8, 4, 59));
+  }
+  
+  #manager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #manager div {
+    justify-content: center;
+    margin: 20px;
+    height: 240px;
+    width: 300px;
+    background-color: rgb(219, 245, 73);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  
+  #manager div {
+    margin-top: 30px;
+    padding: 9px;
+    background-color: rgb(200, 226, 248);
+  }
+  
+  #manager div #name, #manager div #role {
+    font-size: x-large;
+  }
+  
+  #manager div #role {
+    text-transform: uppercase;
+  }
+  
+  #manager div #email {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #engineers, #interns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  #engineers li #name, #engineers li #role, #interns li #name, #interns li #role {
+    font-size: x-large;
+  }
+  
+  #engineers li #role, #interns li #role {
+    text-transform: uppercase;
+  }
+  
+  #engineers li #email, #interns li #email {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #engineers li {
+    background-color: rgb(81, 160, 197);
+  }
+  
+  #interns li {
+    background-color: rgb(138, 233, 119);
+  }
+  
+  ul {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px;
+    height: 240px;
+    width: 300px;
+    box-shadow: 5px 5px 5px rgb(214, 127, 127);
+    border-radius: 5px;
