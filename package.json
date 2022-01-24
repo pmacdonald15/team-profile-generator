@@ -1,0 +1,30 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "The team profile generator generates an html that is styled and displays a software development team and it's members. This also allows access to each members' github profiles.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "graceful-fs": "^4.2.9",
+    "inquirer": "^8.2.0",
+    "jsonfile": "^6.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmacdonald15/team-profile-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmacdonald15/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/pmacdonald15/team-profile-generator#readme"
+}
